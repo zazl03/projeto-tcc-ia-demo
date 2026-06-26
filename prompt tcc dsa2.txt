@@ -1,0 +1,469 @@
+# PROMPT PARA CRIAÇÃO DO PROJETO TCC
+
+## Nome do Projeto
+
+**SGT – Sistema de Gerenciamento de Tarefas e Organização Acadêmica**
+
+---
+
+# TAREFA
+
+Desenvolver um sistema web completo utilizando exclusivamente ReactJS com Vite, focado na organização acadêmica de estudantes do ensino médio, ensino técnico, vestibulandos, universitários e grupos de TCC.
+
+O sistema deverá ser moderno, responsivo, intuitivo, acessível e preparado para hospedagem na plataforma Vercel.
+
+A aplicação deve permitir que estudantes gerenciem suas matérias, tarefas, metas, prazos, notas e produtividade acadêmica em um único ambiente digital.
+
+O projeto deverá seguir boas práticas de desenvolvimento Frontend, componentização, organização de código, responsividade, experiência do usuário (UX) e interface moderna (UI).
+
+---
+
+# CONTEXTO
+
+O projeto será desenvolvido como Trabalho de Conclusão de Curso (TCC) por alunos do curso Técnico em Informática.
+
+O curso possui disciplinas voltadas para:
+
+* Desenvolvimento Web
+* ReactJS com Vite
+* Banco de Dados
+* Engenharia de Software
+* Modelagem de Sistemas
+* Desenvolvimento Mobile
+* Experiência do Usuário (UX)
+* Gestão de Projetos
+
+Após análise da realidade escolar, foi identificado que muitos estudantes apresentam dificuldades para organizar suas atividades acadêmicas, controlar prazos de entrega, acompanhar o próprio desempenho e manter uma rotina eficiente de estudos.
+
+Grande parte das plataformas educacionais existentes concentra-se apenas em disponibilizar materiais, notas ou comunicação institucional, sem oferecer ferramentas completas para planejamento pessoal dos estudos.
+
+Dessa forma, surge a necessidade de um sistema centralizado capaz de auxiliar o estudante em sua rotina acadêmica diária.
+
+O projeto está alinhado ao Objetivo de Desenvolvimento Sustentável número 4 da ONU:
+
+**ODS 4 — Educação de Qualidade**
+
+O sistema deverá contribuir para:
+
+* Organização dos estudos
+* Planejamento acadêmico
+* Desenvolvimento da autonomia estudantil
+* Redução de atrasos em entregas
+* Melhoria da produtividade
+* Melhor gerenciamento do tempo
+* Apoio à aprendizagem contínua
+
+---
+
+# PROBLEMA IDENTIFICADO
+
+Atualmente muitos estudantes enfrentam dificuldades como:
+
+* Esquecimento de trabalhos e atividades;
+* Perda de prazos importantes;
+* Acúmulo de tarefas;
+* Falta de planejamento semanal;
+* Dificuldade para acompanhar notas;
+* Baixa produtividade;
+* Falta de controle das disciplinas;
+* Dificuldade em trabalhar em grupo;
+* Ausência de uma plataforma única para gestão acadêmica.
+
+Esses problemas geram:
+
+* Estresse;
+* Sobrecarga;
+* Queda de desempenho escolar;
+* Falta de organização;
+* Dificuldades no gerenciamento do tempo;
+* Redução da qualidade das entregas.
+
+---
+
+# SOLUÇÃO PROPOSTA
+
+Criar uma plataforma web moderna chamada SGT que permita ao estudante controlar toda sua rotina acadêmica através de um ambiente único.
+
+O sistema deverá fornecer ferramentas para:
+
+* Organização de disciplinas;
+* Gerenciamento de tarefas;
+* Controle de prazos;
+* Acompanhamento de notas;
+* Visualização de produtividade;
+* Planejamento semanal;
+* Comunicação entre estudantes;
+* Organização de grupos de TCC.
+
+---
+
+# OBJETIVO GERAL
+
+Desenvolver um sistema web de gerenciamento acadêmico que auxilie estudantes na organização de estudos, tarefas, prazos e desempenho escolar.
+
+---
+
+# OBJETIVOS ESPECÍFICOS
+
+* Permitir cadastro de usuários;
+* Criar sistema de autenticação;
+* Permitir cadastro de disciplinas;
+* Permitir cadastro de tarefas;
+* Controlar datas de entrega;
+* Criar painel de produtividade;
+* Exibir indicadores acadêmicos;
+* Implementar filtros inteligentes;
+* Disponibilizar área de metas;
+* Disponibilizar chat acadêmico;
+* Facilitar a organização de grupos de TCC;
+* Melhorar a gestão do tempo dos estudantes.
+
+---
+
+# TECNOLOGIAS OBRIGATÓRIAS
+
+## Frontend
+
+* ReactJS
+* Vite
+* JavaScript 
+* HTML
+* CSS
+
+## Bibliotecas Recomendadas
+
+* React Router DOM
+* Axios
+* React Icons
+* React Hook Form
+* Chart.js
+* React ChartJS 
+* SweetAlert2
+* Framer Motion
+* React.js
+
+## Hospedagem
+
+* Vercel
+
+---
+
+# ESTRUTURA DAS TELAS
+
+## Tela Inicial
+
+Deve apresentar:
+
+* Nome do projeto
+* Descrição do sistema
+* Benefícios
+* Botão de login
+* Botão de cadastro
+* Seção explicativa sobre o ODS 4
+
+---
+
+## Tela de Cadastro
+
+Campos:
+
+* Nome completo
+* E-mail
+* Senha
+* Confirmar senha
+
+Validações:
+
+* Campos obrigatórios
+* E-mail válido
+* Senha mínima de 8 caracteres
+
+---
+
+## Tela de Login
+
+Campos:
+
+* E-mail
+* Senha
+
+Recursos:
+
+* Mostrar senha
+* Recuperação de acesso
+* Lembrar usuário
+
+---
+
+## Dashboard Principal
+
+Exibir:
+
+* Total de tarefas
+* Tarefas pendentes
+* Tarefas concluídas
+* Próximos prazos
+* Produtividade semanal
+* Metas alcançadas
+* Gráfico de desempenho
+
+---
+
+## Tela de Matérias
+
+Funcionalidades:
+
+* Criar matéria
+* Editar matéria
+* Excluir matéria
+* Pesquisar matéria
+
+Campos:
+
+* Nome
+* Professor
+* Cor da disciplina
+* Descrição
+
+---
+
+## Tela de Tarefas
+
+Funcionalidades:
+
+* Criar tarefa
+* Editar tarefa
+* Excluir tarefa
+* Marcar concluída
+
+Campos:
+
+* Título
+* Descrição
+* Matéria
+* Data de entrega
+* Prioridade
+* Status
+
+Prioridades:
+
+* Baixa
+* Média
+* Alta
+* Urgente
+
+Status:
+
+* Pendente
+* Em andamento
+* Concluída
+
+---
+
+## Tela de Notas
+
+Funcionalidades:
+
+* Registrar notas
+* Calcular médias
+* Histórico de avaliações
+
+Indicadores:
+
+* Média geral
+* Melhor disciplina
+* Disciplina com menor desempenho
+
+---
+
+## Tela de Metas
+
+Permitir:
+
+* Definir metas semanais
+* Definir metas mensais
+* Acompanhar progresso
+
+---
+
+## Tela de Chats Acadêmicos
+
+Recursos:
+
+* Chat da turma
+* Chat do grupo de TCC
+* Histórico de mensagens
+* Lista de participantes
+
+---
+
+# BANCO DE DADOS
+
+## Tabela Usuários
+
+* id
+* nome
+* email
+* senha
+* data_cadastro
+
+## Tabela Matérias
+
+* id
+* nome
+* professor
+* descricao
+* usuario_id
+
+## Tabela Tarefas
+
+* id
+* titulo
+* descricao
+* prioridade
+* status
+* prazo
+* materia_id
+
+## Tabela Notas
+
+* id
+* nota
+* observacao
+* materia_id
+
+## Tabela Metas
+
+* id
+* titulo
+* descricao
+* progresso
+* usuario_id
+
+## Tabela Chats
+
+* id
+* mensagem
+* usuario_id
+* data_envio
+
+## Tabela Grupos_TCC
+
+* id
+* nome_grupo
+* descricao
+
+---
+
+# PIPELINE DE DESENVOLVIMENTO
+
+## Sprint 1 – Levantamento e Planejamento
+
+* Pesquisa do problema
+* Levantamento de requisitos
+* Definição das funcionalidades
+* Planejamento das telas
+* Criação dos wireframes
+
+---
+
+## Sprint 2 – Design e Protótipo
+
+* Criação da identidade visual
+* Definição de cores
+* Definição de tipografia
+* Protótipo navegável
+
+---
+
+## Sprint 3 – Estrutura React
+
+* Configuração do projeto Vite
+* Organização de componentes
+* Estrutura de rotas
+* Configuração inicial
+
+---
+
+## Sprint 4 – Sistema de Usuários
+
+* Cadastro
+* Login
+* Persistência de sessão
+* Validações
+
+---
+
+## Sprint 5 – Matérias
+
+* Cadastro
+* Edição
+* Exclusão
+* Pesquisa
+
+---
+
+## Sprint 6 – Tarefas
+
+* CRUD completo
+* Controle de status
+* Controle de prioridade
+
+---
+
+## Sprint 7 – Dashboard
+
+* Indicadores
+* Gráficos
+* Estatísticas
+
+---
+
+## Sprint 8 – Notas e Metas
+
+* Registro de notas
+* Cálculo de médias
+* Sistema de metas
+
+---
+
+## Sprint 9 – Chats
+
+* Comunicação acadêmica
+* Organização de grupos
+
+---
+
+## Sprint 10 – Testes
+
+* Testes funcionais
+* Testes de interface
+* Correção de bugs
+
+---
+
+## Sprint 11 – Deploy
+
+* Publicação na Vercel
+* Testes finais
+* Documentação
+
+---
+
+# RESTRIÇÕES
+
+* Muitos alunos possuem apenas celular para desenvolvimento;
+* Tempo limitado de desenvolvimento;
+* Aproximadamente 13 aulas semanais de 45 minutos;
+* Utilização de ferramentas gratuitas;
+* Fácil manutenção;
+* Interface intuitiva;
+* Compatibilidade com dispositivos móveis e computadores.
+
+---
+
+# RESULTADO ESPERADO
+
+Ao final do projeto deverá ser entregue uma aplicação web completa, funcional, responsiva e hospedada na Vercel, capaz de auxiliar estudantes na organização acadêmica, gerenciamento de tarefas, acompanhamento de desempenho e planejamento dos estudos, contribuindo diretamente para uma educação mais organizada, produtiva e alinhada ao ODS 4 – Educação de Qualidade.
+
+(CHAT GPT)
